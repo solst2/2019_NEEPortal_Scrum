@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meine ASP.NET-Anwendung</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css" />
+</head>
+<body>
+    <div class="container body-content">
+        <h1>Meine private Installation</h1>
+        <!-- TABS PRESENTATION -->
+        <section class="blok">
+            <div class="blok-body">
+                <div class="row">
+                    <!-- Nav tabs -->
+                    <ul class="nav tab-menu nav-pills col-sm-4 nav-stacked pr15">
+                        <li>@Html.ActionLink("Lage", "Lage", "Home")</li>
+                        <li>@Html.ActionLink("Art der Installation", "Art", "Home")</li>
+                        <li>@Html.ActionLink("Ausrichtung", "Ausrichtung", "Home")</li>
+                        <li>@Html.ActionLink("Oberfläche", "Oberfläche", "Home")</li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content col-sm-8">
+                        <div class="tab-pane well active in active" id="home">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div><!-- //row -->
+            </div><!-- blok-body // -->
+        </section><!-- // blok -->
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Meine ASP.NET-Anwendung</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{5075807B-BAC0-48B0-8D75-0BD27CA0EA8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{53C6B7EB-A5E2-4D6A-B4CA-2D4ED8095A4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{5912BC88-D49A-4279-973C-2018F5875A23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{5E5150F5-A4B5-431D-B083-843FED9B55C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5075807B-BAC0-48B0-8D75-0BD27CA0EA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5075807B-BAC0-48B0-8D75-0BD27CA0EA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5075807B-BAC0-48B0-8D75-0BD27CA0EA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5075807B-BAC0-48B0-8D75-0BD27CA0EA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C6B7EB-A5E2-4D6A-B4CA-2D4ED8095A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C6B7EB-A5E2-4D6A-B4CA-2D4ED8095A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C6B7EB-A5E2-4D6A-B4CA-2D4ED8095A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C6B7EB-A5E2-4D6A-B4CA-2D4ED8095A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5912BC88-D49A-4279-973C-2018F5875A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5912BC88-D49A-4279-973C-2018F5875A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5912BC88-D49A-4279-973C-2018F5875A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5912BC88-D49A-4279-973C-2018F5875A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5150F5-A4B5-431D-B083-843FED9B55C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5150F5-A4B5-431D-B083-843FED9B55C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5150F5-A4B5-431D-B083-843FED9B55C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5150F5-A4B5-431D-B083-843FED9B55C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA5BD009-43CA-445D-B5BE-A429E2A36191}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vmhtfs2018.hevs.ch/625-1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BLL\\BLL.csproj
+		SccProjectName1 = BLL
+		SccLocalPath1 = BLL
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = DTO\\DTO.csproj
+		SccProjectName3 = DTO
+		SccLocalPath3 = DTO
+		SccProjectUniqueName4 = WebApplication\\WebApplication.csproj
+		SccProjectName4 = WebApplication
+		SccLocalPath4 = WebApplication
+	EndGlobalSection
+EndGlobal
